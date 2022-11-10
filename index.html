@@ -1,104 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
- <main class="main-reg">
-    <div class="container">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <main class="main-reg">
+      <div class="container">
+        
         <div class="user-logo-side">
-                <img class="user-logo" src="./images/Page 1.png" alt="">
-                <p class="main-reg-title">Let’s get you set up</p>
-                <p class="main-reg-desc">Itshould only take a couple of minutes
-                    to pair with your watch</p>
-                    
-                    <img src="./images/Group 33.png" alt="">
-                </div>
- 
- 
+          <img class="user-logo" src="./images/Page 1.png" alt="" />
+          <p class="main-reg-title">Let’s get you set up</p>
+          <p class="main-reg-desc">
+            Itshould only take a couple of minutes to pair with your watch
+          </p>
 
-                 <!-- user info section -->
+          <img src="./images/Group 33.png" alt="" />
+        </div>
 
-              <div class="user-info-sec">
-            
-                   <form class="mian-form" action="" method="post">
-                    <div class="name">
-                     <label class="label" for="">Name</label>
-                     <input class="input" type="text" name="name">
-                    </div>
-                    
-                    <div class="gender-sec">
-                        <label class="label" for="">gender</label>
-                        <div class="genders">
-                        <input  class="radio-btn" type="radio" name="gender" id="male">
-                      
-                        <label class="radio-label" for="male" id="male">
-                            <span>
-                                <img  src="./images/male.svg" alt="" id="male">
-                            </span> 
-                            male</label>
-                        
-                        <input class="radio-btn" type="radio" name="gender" id="female">
-                        <label  class="female" for="female" id="female">
-                            <span>
-                                <img  src="./images/female.svg" alt="">
-                            </span>
-                            
-                            
-                            female</label>
-                    </div>
-                    </div> 
+        <!-- user info section -->
 
-                    <div class="date">
-                    <label class="label" for="date_of_birth">Date of Birht</label>
-                    <input class="input" type="text" name="date_of_birth" id="date_of_birth">
-                </div>
+        <div class="user-info-sec">
+          <form class="mian-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="name">
+              <label class="label" for="">Name</label>
+              <input class="input" type="text" name="name" />
+            </div>
 
-                <div class="email">
-                    <label class="label" for="email">email</label>
-                    <input class="input" type="email" name="email" id="email">
-                </div>
-                      
-                <div class="mobile">
-                    <label class="label" for="mobile">Mobile</label>
-                    <input class="input" type="text" name="mobile" id="mobile">
-                </div>
-                      
-                <div class="customers">
-                    <label class="label" for="customer_id">Customer ID</label>
-                    <input class="input" type="text" name="customer_id" id="customer_id">
-                </div>
+            <div class="gender-sec">
+              <label class="gender-label" for="">gender</label>
+              <div class="genders">
+                <input class="radio-btn" type="radio" name="gender" id="male" />
 
+                <label class="radio-label" for="male" id="male">
+                  <span>
+                    <img src="./images/male.svg" alt="" id="male" />
+                  </span>
+                  male</label
+                >
 
-                <div class="membership">
-                    <label class="label" for="customer_id">membership</label>
-                    <input class="input" type="text" name="customer_id" id="customer_id">
-                </div>
+                <input
+                  class="radio-btn"
+                  type="radio"
+                  name="gender"
+                  id="female"
+                />
+                <label class="female" for="female" id="female">
+                  <span>
+                    <img src="./images/female.svg" alt="" />
+                  </span>
 
-                   </form>
-
-
-
-
+                  female</label
+                >
               </div>
+            </div>
 
+            <div class="date">
+              <label class="label" for="date_of_birth">Date of Birht</label>
+              <input
+                class="input"
+                type="text"
+                name="date_of_birth"
+                id="date_of_birth"
+              />
+            </div>
 
+            <div class="email">
+              <label class="label" for="email">email</label>
+              <input class="input" type="email" name="email" id="email" />
+            </div>
 
+            <div class="mobile">
+              <label class="label" for="mobile">Mobile</label>
+              <input class="input" type="text" name="mobile" id="mobile" />
+            </div>
 
-    </div>
+            <div class="customers">
+              <label class="label" for="customer_id">Customer ID</label>
+              <input
+                class="input"
+                type="text"
+                name="customer_id"
+                id="customer_id"
+              />
+            </div>
 
- </main>
+            <div class="membership">
+              <label class="label" for="">membership</label>
+              <div class="checkbox">
+                <input class="" type="checkbox" name="checkbox" id="classic" />
+                <span>
+                  <img class="check-img" src="/images/Group.svg" alt="" />
+                </span>
+                <label class="check-label" for="classic">classic</label>
 
+                <input class="" type="checkbox" name="checkbox" id="silver" />
+                <span>
+                  <img class="check-img" src="/images/Group.svg" alt="" />
+                </span>
+                <label class="check-label" for="silver">classic</label>
 
+                <input class="" type="checkbox" name="checkbox" id="silver" />
+                <span>
+                  <img class="check-img" src="/images/Group.svg" alt="" />
+                </span>
+                <label class="check-label" for="silver">classic</label>
+              </div>
+            </div>
 
-
-
-
-</body>
+            <div class="buttons">
+              <button class="reset-btn" type="reset">Cansel</button>
+              <button class="submit-btn" type="submit">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

@@ -68,6 +68,18 @@ body {
 .genders {
   align-items: center;
   justify-content: space-between;
+  margin-left: 19px;
+}
+.gender-label {
+  width: 40px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #373d40;
 }
 .label {
   width: 40px;
@@ -164,4 +176,76 @@ input[type="radio"]:checked + .female {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.membership {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+.checkbox {
+    width: 190px;
+  display: flex;
+  margin-left: 22px;
+  align-items: center;
+  justify-content: center;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+}
+.check-label {
+  width: 40px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #373d40;
+}
+
+.membership span {
+  width: 26.45px;
+  height: 26.48px;
+  border-radius: 50%;
+  background: #c7c7c7;
+  padding: 3px 7px 9px 7px;
+  margin-left: 20px;
+}
+
+.check-img {
+  width: 11.64px;
+  height: 7.95px;
+}
+
+input[type="checkbox"]:checked + .check-label {
+  font-size: 25px;
+  color: hotpink;
+  border-radius: 50px;
+}
+
+.buttons {
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.reset-btn {
+  width: 79.35px;
+  height: 26.48px;
+  border: none;
+  background: #f5f8f9;
+  margin-right: 10px;
+  border-radius: 2.64604px;
+}
+
+.submit-btn {
+  width: 79.35px;
+  height: 26.48px;
+  border: none;
+  background: #60e6c5;
+  border-radius: 2.64604px;
 }
